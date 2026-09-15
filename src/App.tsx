@@ -335,6 +335,10 @@ function App() {
         return <GoogleLoginPage />
     }
 
+    if (window.location.pathname === '/add-google') {
+        return <GoogleLoginPage />
+    }
+
     return <GoogleLoginPage />
 }
 
