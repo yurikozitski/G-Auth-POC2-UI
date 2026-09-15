@@ -10,13 +10,14 @@ type RegisteredUser = {
     email: string
     normalizedEmail: string
     emailConfirmed: boolean
+    passwordHash: string | null
     phoneNumberConfirmed: boolean
     twoFactorEnabled: boolean
     accessFailedCount: number
     logins: Array<{ providerDisplayName: string }>
     firstName: string
     lastName: string
-    profilePictureUrl: string
+    profilePictureUrl: string | null
 }
 
 function UserPage() {
