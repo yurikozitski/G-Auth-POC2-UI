@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="g-auth-poc2-ui.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
